@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <section class="order-section">
+            <h1>Place Your Order</h1>
+            <form id="orderForm">
+              <!-- User Details -->
+              <div class="form-group">
+                <h2>User Details</h2>
+                <input type="text" id="name" placeholder="Full Name" required>
+                <input type="email" id="email" placeholder="Email Address" required>
+                <input type="text" id="phone" placeholder="Phone Number" required>
+                <textarea id="address" placeholder="Delivery Address" required></textarea>
+              </div>
+        
+              <!-- Payment Details -->
+              
+              <a href="#"><button type="submit" id="confirmOrder">Confirm Order</button></a>
+            </form>
+          </section>
+        
+          <section id="myOrders" class="hidden">
+            <h1>My Orders</h1>
+            <ul id="ordersList">
+              <!-- Orders will be added here dynamically -->
+            </ul>
+          </section>
+        
+    </body>
+    </html>
+    <!-- partial -->
+    <script  src="./script.js"></script>
+
+        
+</body>
+</html>
